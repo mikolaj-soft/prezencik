@@ -1,0 +1,42 @@
+#cover {
+    background: #222 url('https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/18033507_1381205591923129_5432881744019295843_n.jpg?_nc_cat=105&_nc_ohc=LMqli4-i1NsAQlKfzMpr_buo0alrVaOBkcJ-7qWiAYsv1lON2p7Wam1Qw&_nc_ht=scontent-waw1-1.xx&oh=5b96639b5f419291f9dba4332d0f0312&oe=5E7A5A8C') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+#name-valid, #surname-valid {
+    color: red;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;  
+    opacity: 0.8;
+    width: 100%;
+    font-family: cursive
+}
+
+.invalid{
+    border-color: red
+}

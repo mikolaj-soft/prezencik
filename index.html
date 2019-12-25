@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Prezencik !!</title>
+  </head>
+  <body>
+    <div class="container">
+        <section id="cover" class="min-vh-100">
+            <div id="cover-caption">
+                <div class="container">
+                    <div class="row text-white">
+                        <div class="col-md-8 col-sm-10 mx-auto text-center form p-4">
+                            <h1>Podaj dane w celu weryfikacji otrzymania prezentu</h1>
+                            <div class="px-2">
+                                <div action="" class="justify-content-center">
+                                    <div class="form-group">
+                                        <label class="sr-only">Imię</label>
+                                        <input id="name" type="text" class="form-control" placeholder="Imię beneficjenta">
+                                        <span id="name-valid"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only">Nazwisko</label>
+                                        <input id="surname" type="text" class="form-control" placeholder="Nazwisko beneficjenta">
+                                        <span id="surname-valid"></span>
+                                    </div>
+                                    <div></br></div>
+                                    <button onclick="confirmFunction()" class="btn btn-primary btn-lg">Potwierdź</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">GRATULACJE</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Otrzymałeś nagrodę !!</p>
+              <p>Kliknij w <a target="_blank" rel="noopener noreferrer" href="https://watch.nba.com/packages?ls=leaguepass:nbacom:packages:rd">LINK</a> a następnie zaloguj się na swoje konto mailowe aby otrzymać szczegółowe informacje</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
